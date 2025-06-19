@@ -20,17 +20,17 @@ The firmware design of the balance robot, written in C language, bare metal, Kei
 ![image](https://github.com/user-attachments/assets/0bfd8ef7-d2d6-4a48-9aba-190ac4e9e1c8)
 
 # Program flow
-The program is written in C language, using STM32 LL (Low-level) library, bare-mental style.
+The program is written in C, using the STM32 LL (Low-Level) library in a bare-metal style.
 
-The robot balance control algorithm is placed in a 1kHz timer interrupt routine, including sensor update (MPU6050 DMP sensor, motor encoder), 7x PID control functions.
+The robot balance control algorithm is implemented within a 1 kHz timer interrupt routine, which includes sensor updates (MPU6050 DMP sensor, motor encoder) and seven PID control functions.
 
-Besides, the main loop is handling the uart communciation with BLE modules, robot falling detection and robot battery management.
+Additionally, the main loop handles UART communication with BLE modules, robot fall detection, and battery management.
 
-The firmware include address based data log functions, it's placed inside the 1Khz control routine so that the data log modules can log down any variabels in the program for tunning control parameters.
+The firmware also includes address-based data logging functions placed inside the 1 kHz control routine, allowing the data logging module to record any variables in the program for tuning control parameters.
 
 ![image](https://github.com/user-attachments/assets/dcf99269-94b8-4c73-a8e3-a3e1bdf43d41)
 ![image](https://github.com/user-attachments/assets/c8375687-95ea-42cf-b0bc-080d8705f1b4)
 ![image](https://github.com/user-attachments/assets/b0cdf2f5-23a0-4d7e-8c23-7b1d5d78bbf4)
 
 # Hardware 
-The hardware: 
+The hardware: https://github.com/hkcys9990/Balance-Robot-Hardware/edit/main/README.md
