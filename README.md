@@ -33,4 +33,4 @@ The firmware also includes address-based data logging functions placed inside th
 ![image](https://github.com/user-attachments/assets/b0cdf2f5-23a0-4d7e-8c23-7b1d5d78bbf4)
 
 # Hardware 
-The hardware: https://github.com/hkcys9990/Balance-Robot-Hardware/edit/main/README.md
+The hardware: [https://github.com/hkcys9990/Balance-Robot-Hardware/edit/main/README.md](https://github.com/hkcys9990/Balance-Robot-Hardware/tree/main)
