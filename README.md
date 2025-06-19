@@ -13,6 +13,9 @@ The firmware design of the balance robot, written in C language, bare metal, Kei
 
 5.Firmware Design (C language, bare-metal) **(This project page)**
 
+# Demonstration
+https://www.youtube.com/watch?v=u6oU_3oZxdM
+
 # Hardware Structure
 ![image](https://github.com/user-attachments/assets/56e582bc-2032-436c-bdb0-fe9698ca58f3)
 
